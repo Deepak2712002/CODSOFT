@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Deepak Sharma</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">deepaksharma2712002@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 (9252833477)</a>
+            </div>
+
+          </li>
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Jaipur, Rajasthan, INDIA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/deepaksharma2712002/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Deepak2712002" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/deepak2712002/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+  
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Website Developer and Internet Researcher from India. I enjoy turning complex problems into simple, beautiful and intuitive designs.<br>
+            progressive organization where I can enhance my skills and learning to contribute to the success of the organization.
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+       
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+ 
+        <!--
+          - clients
+        
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+-->
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MCA (MASTER OF COMPUTER APPLICATION)</h4>
+
+              <span>2023 — 2025 (Current Pursuing)</span>
+
+              <p class="timeline-text">
+                JAIPUR ENGINEERING COLLEGE AND RESEARCH CENTRE (JECRC University)<br>
+                Rajasthan
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BCA (BACHELOR OF COMPUTER APPLICATION)</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                PARISHKAR COLLEGE OF GLOBAL EXCELLENCE<br>
+                My college is affiliated from ‘A’ Grade by “NAAC
+                (National Assessed & Accreditation Council- UGC, Govt. of India)<br>
+                Rajasthan
+              </p>
+              <!-- <span>Percentage 68.66%</span> -->
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">INTERMEDIATE</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                PARAG PUBLIC SR. SEC. SCHOOL , JAIPUR .<br>
+                Board - RBSC (Rajasthan Board of Secondary Education) .
+              </p>
+              <!-- <span>Percentage 68.20%</span> -->
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!--
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Creative director</h4>
+
+              <span>2015 — Present</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art director</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+      -->
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <!-- <data value="80">80%</data> -->
+              <!-- </div> -->
+
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div> -->
+
+            <!-- </li> -->
+
+            <!-- <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li> -->
+
+            <!-- <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li> -->
+
+
+
+
+  <!-- <div class="flex flex-row gap-10 mx-auto">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAQ7ElEQVR4nO1dCbQcRRXtaBRxARFRRETcRQMiiCsYFRDQCGHpqkl+EBUMKoQ9ZpuqEo6iIiDIJjsiqCBgRAlgYmbe608IW4QkkIAQgYNAQMKSPST5ntczWfj5f/p1T/U2v+45fU4OJFPbq6pXb7nP8xwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHDoGvn/9642oDalK+I6WcIEWiFrAXCXgv0rgci1xhRKwUAt8REuoK4HnKxmMNn73rp7XMyjv/jvkAGN6Xmf8YE8SmFA4JPYk++ApJfG3RgT7OGEaADBH1N6kJByrBTyeXGj6/pTAeboCxxi/9ta8x+lgGcaf+0ZVwePoWrItOJt8Ap7VAo42Q2uD3UJ2AIwIPk86TeqCI3udSBIeNAK+nPf4HRLCDLv3zUrA2Vri6qyFR6+/1mCNEvALOgHdQpYIkyS8TwuclZfg6E2uNZxlZG3HvOfFgQHl17+gJD6Tu9DI3qcRPq9kfS+3iAWGqeBhZLfJW1h0vx8sU5Xg4LznyaEPGFk/RAtY1cYJMU9LvEhLPLwqgk9N9Ge890R/xuZj9p+y2QQftyHDoRbQpQWc2zAqJr3OYJUTooLBCByeTHjgFS3wPFPp/kzcNqt+fWcl4EIlcXFsYZWwUongW+nMhkMskEWZFiT2Akr4DZ0s7U43/QadSipuHwQuJxODW+7cX1vwbLyFg3uqfvfHbPfFiNoQ+u14gozP0Bhs98WBAdJPtIR7Y1xXa5XE00ePvvcNaU2wGVobrCSeGU8nwlk0FrfoGUMJvCzOlVWV9ZFZ9U0L6IpzpZGHP6u+OZDwVOCbMa6JxQ1vebZQMjiAnu380zE4wC1uBjD+jHdwnaJ0CuQhPOtgJHyd+zokfWj88Klbr//HDulACbiaqSyv0RJk3utQ9XEUnTA8fQguzru/He+m4C6Gkqi9gkAL/DlX6JPYpBxY6BmkBN7B3MnTKOqwKBNr6HUmoMa8du900Y3p+bk4Culzxq9t6xUMpqu2vZb4EkuInL/MfuA71/9EOodXUGgJRzI3wf3uFMrn9KkXfeKVRHCnUMbQEmcwlOZX03BR2Ibyg90bL8TIDXF33n3tCBgJX2SePpd7JYGSeA1nTO5FZgFa4nWMl8vKMoWMmhG1j/NOofJsikJinD91y2Z2aNRuvdTrwI2hJSwbPzLYKu++lhbcV0u1Uv+0V0qjKHKu5iPz7mtpoSVOZ1xfgVdSKF780G1597OUoJhklp4goMsrKbSAozmvSzOi9s68+9qR15eSsPTkUbe/xSspxg+fujUvbshdY+m8vgTe6JUcWsLNjHH+Ke9+lgrkCKVEvMid6eMIbyCctAIWFt3CXiiQAY2hXK42B9Xe7pUcptK9HSdExVRwl7z7WhpoUT+ZsSvv8ToEWuJFpM+1HG8Fj8u7n15HmfoF/srrIJzoz9ickg21hOv7Vqzhd3n3sTTg8PkYicPajleWeKmWMF8LXEKxOkrinJCyzg/29PJ+nVXwuF4hLLPz7FO5dqLEVyMFKGHQGHnsQyLNaPvSlEkj73i/lzeXowj2UQL+RsH5RNGXZ39KASXqezCetc8n+m0fhyqJLzIU9PXtFEV5NaI2xPnFGKCnOWNxpyc5eeIIz8ZC1LRJTVcCHiBmVi1g0fpP4gIl4DEl8S4t4KZmnvwpWgb+JNn9oUTS4pAcWsJYhgJ9Xuzf5VxbKXyKhFbANCXwDFOpH+hYXFMGCUf0osApcX5TVer75iE8uu++rwwFSsIp1UrwyfRmcoBCC5xs2wIdJ48+B4F6UEn4Sd4Ke8eAE+JAynCc3wyf6gUQFt36W60k3qIEHEpZKOnNcIeDs9hG4kfj/GYSFrGcvwVa1o8nquL0ZrpDoQU+GSlAle7tYv0mUdnlLxQ98T94TktQneDzywxa4v+iJjauPaQkV1hPS1OCwDFpkmN1DKKcivTFZfRquCzyFwTd7he6NgLfhXa0XuzI0gRxiRPIHdDu4lUFHEX0v8YPdiBbDrkV6CSkcFMzMvhgmL8WGkGDceRPCx8DbdAOR3zTjV/7cJw5GDDgpPEQd3NaKcX9XCH/TDKWMftP2Sws9lLBE5WEqTZJ0OmkVhJPci+2TRYaXoiavCQ+IXq5NV0PMa8NWEQnTBIB6g06uYh5g0IzmhEANgTpzqqs77RJYwMVabzC1oHKL8USIgGLKH/L/ig9b+yB3W+r+sH3KC2JzWDW/wm5nK7YNPpZOnBeTO04Kasj6h/hkT1BPSs9wzQ4pq9uV2dSEq8a8LYjTpkmVcHPtbtoSuLexEmoBT5EhsZQpxDwsJJwhRL1r3o5wPjBDkrgOZyXaItvdlxDa0dBCbw9+grDw7wOT6rUJNyJi+XBKxRx6Q1ENCcu6qg+yRsAUH6wO12lCU+iFUVgqc0cSuJExuT82htA0DLwORb6Pk6iteTp9zoJNCAz6o539ff/qSQB49XxV2+Awfi1bSkTN5FyLeCnXqcIT6jDtKhmrAR+KXJSBD7pDVBUww0W3zlcJN7sRNACzYbBBKP7+3vkGuBMyEBmrDBkFJVwf+zTSMAEr4zQPn6/10DOavn3w3iYiB1Vqe/rDWCc2Ch3dXnsk6hsGa5UWad3nhdF3rXPi4gTsxtFcaFl/Xgm6+s6fWiNknCQVxqShD58PkrCE63+XSMtJnIiatmNpNhQleDgOMbHsARWQfLdWpZlanUVtSr1GPqsIicBVpI/KdtRFZ4O+aUY+tDjrV7DBeD3gVtbDaBVBUHy53CKtbnKx68FuXjiZd5CrUhFadZDCziVMYCLWv0G6UmMXeTqa/WCEbBbLKNj0V5mzV0QSY5ADBwtf0fgjxi/sShJcFlRYHozhAhcogTOUxIuaeeVaXz4LFcnCkk8i1J+vPm05Aawr25FkBmW9GbEyVAelVcyVJkMIRRFmdSzTvPCfp0JfKQQKddKwNn8+xdPY/zeA4zBT/ZKBCODr8QieQiD2uIlUq6DEnACv52cCbvoWci6uhqnxq0c5U1JGM85ycrCgmGoRkYShhCJLyY+iSRexb3Kqn59Z/uj5naUWdIxfD4y3RATKtPezYrSE3CuVwJoCd1xhWejEwKTtElqAuXf89vIgQ22KrDCvLaWx61roST8JXr3wNKi+8aUgP0SC8+6cSZUrI2Pn+AG8Vf9uvAyL0fJVZwTPBnJFdIJIQtKwhXtClA7VYkotYh5Cj2SaapQVQTfZgrPXOPPfWMyAY12rpLhkWKKvYJCCXi47RNI4Lyk7ZPOyb5CsyJwp8VVEv/NWNy17TCfbuLN77+dP3oFhbLCEAKvtNMHIrTi1OYgnSkTC3UjSY6xcyRc0k47RCqgBP6HJagtgtXyhGov06J5AsHLWTDAZWZfa6brRgnP0gk+btN+W8Fo5kQvMF0zt/AKBpXzFbYOtBYkiIy2bvfStmmwMiotPbFJf+LpQsVkddd2GEJa+g+5oPBWxgm0JlXaPS3gZwzhWdUqbCOtF1lzAv4cMt5b9DG11XfBiPWOPM3re9noCxFWcZ71qWZ09KLh768DV9huN2lmgi0fU3t9h5YhLlmWvqTTjNHmAi8NEE8OZ9BkwLLdtumqbW+Fso5YNzJWuKuMlKV+TtOFlK1quS87scpMpbCGtJOqjF1+l/WG17Uv4di2BagpRES24GWCnkFK4n3x+4hPpxV+qiXeHd1+/WT7DQuYlm/0f88gLfEGG0JE15mXAYysHxK/f3D9xC54T75VAWCa1UYpgIsTbmqLlKk/jPOnbqkFPGpJiPZOs69maG0wp4RVM5phupJ4ehakUZN8+ABjflZYJfcMKduiJkLAw9YabNWXCu7CEea8Q2M1Z6c3TpwL0uxHn31jbEKrYR68IrF4mbUGI/uDs4tgoGvJ+cNzY6ygB4KXMUJiq0gBwlHWGqTItcgF8eEH1hqM6k+cVJb+r47F6fSuZ5AW+HfeKRi/ApENaIk/ZGywM6w1SMwYUQ1m+Ty24aS04WPqC0QOzhNgWJqU97FdmAp8jSFAN1prUAuYGSlAGR7FVljoBT5ku19Vv74zVz/LM02beCCj+wj1TC3QSeJ+8vQxETG4zT6Zrplb8AUb5mc5X31n0kTOzxxrDTZLQLZqcIWXIWyw0NMxbvXJLvE2dtsi2MfLGZEWaYFPW2uMzOoRO2qZlzHIdpJcgCwez144PxeyTz4BV3s5oxGpGHnF2xOgsOhsRINZ0++T0ZJxMvZxNMMLNrmgFYNVZCPheawIcUtkJIwWIHjUWoM08KgGKR3HyxhxWehJeGyFR2x4cQGPcV7AKhtc1zZgZG1HhrA/YK1BTmB2WuUB7LHQ261204jZBna5giKRY3Ge8bTm1hrUAq9l7LCjvRyxKQs9LqY/03+zqTBvSB+OUetC4OQiUarwSCzwykwjEZXEa7wOR6h8CjiLLTgyvDb/VQgSg42gBdzEOIHGWmvQCBzOaPC5Ti7PSMXmwpDZWMKDz9gM77WoQEe6giiU2FqjRIvGmjCbjRYIFGhOwXIxhWcxcfZ4BQORbUb2XcAaIjm327DAebmnheQAI3EYpyCefq3+sKTAuWoB49q9037DAk/jnULFeKraSSmCX8YvDAfL0g5WSzOuq/lNst84sT1wBEjAPWWv6alEfY8kMUdK4HJi5PAKiDAlnYoCM8ZB6dCpdIKvBwTjvJIqynTqcEmzdM4ZHylUREqXi5ubF08MYuUqS0AB+yA5Fvd+dIYnUtu19og9WYXsjKh/I+00lTm8HYlLkvL8Za8XJGcRUxLnFO2pvikZOTunbnbqbGUkofHKMOIwr4AIqYkZkZYR33VFZs4nUvY40Zspnz4bd4xvUAtpZwWcWgQjY1ORPLQt3sJmyQVypHoFRWgsFHBqnIIstBky6yDF8sYNpSDvbl5KZpN/emxSHaeX8DxRZFOF8nEoiyr5tWuzMM1kxlZRgfErDAuY0rCTpHvXhtbzChxDhrOYO7FF3/FKYrmIZ/WtH0/JfGmOtamb7p2QyGG1bWczG/RcT74gMD+spep372ora7VhNcYzm/aOhOWz+xScJ00F9483NzC2l+DOJlJ28ivaYpeluWuUFG0jySCNPPg4aFhr270WQiJuSu89UwvooqvOiNoQYqegKj5kFR4/MtiKAqEo/Tfk3RH4XUoHpnz55svQnsBsONrXUPB9nChCM7Q2mDiJIjbP2vA6FTiZmGa1D0eQ2YOMtXSV0FgpnZzaHT986tZEqk58k1ri4aFuI/GWJNGYfcz76V4REKfcQYm+6XH5rcePDLbSAv9RgL73ZJo4aAP0KklkwS3cB/NNpX5gEveHsqCkZ/CtLmwNVbJ4UgxMASYp/idgLpFBxffj9QxSAn/MKs+Q90e8QwVIKWoJurOVhD/kPlnMj/x7xOOTJOTUdM3cok0KuyzHeQ2VJPXKAvJKUzhnQSdzMSm6VOnPCvWfgHNjVQzMdqz3lcsvuRFoV4ccgQJnFWAiXyUFtyrgqDRys8aEJFyBT3auNF6ESQSHCuLkUoknRafe762QZcY6afAWIizPsrKP8WvbhvVEBF4bndVrcbwCXqbM17xSrDIB7VSKnW7YSiywbGz8CXi2kaMOimxFZJMpwilsBOxGhfQo5NfuVUf2pAYXNjlCy1xLNjHoZAjralFpIgEXh5WbwysPngqzThvk2Kubf36ansrNwLYblMBz6N/R5OXFtZM4SJ82kYATlMDztYSbtcQZISt/OM5mtm1ImE5/hqdCXSacG7i48e9gP3qwJOqAg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODF4X/A9O0a+J38wXiAAAAAElFTkSuQmCC" alt="redux" class="w-[50px] sm:w-[100px] transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+    <img src="data:image/png;base64,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" alt="firebase" class="w-[50px] sm:w-[100px] transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+    <img src="M:\Portfolio\My portfolio\assets\images" alt="c++" width="100px" height="100px">
+  </div>
+  https://www.geeksforgeeks.org/c-plus-plus/
+  <li class="social-item">
+    
+      <ion-icon name="logo-linkedin"  width="500" height="600"></ion-icon>
+    
+  </li>
+  <div class="flex flex-row gap-10 mx-auto">
+    
+  <img src="M:\Portfolio\My portfolio\assets\images" alt="center" width="100" height="100"&nbsp;>
+  <img src="M:\portfolio\assets\images\letter-c.png" alt="center" width="100" height="100">
+  <img src="M:\portfolio\assets\images\c++.png" alt="center" width="100" height="100">
+  <img src="M:\portfolio\assets\images\python.png" alt="center" width="100" height="100">
+  <img src="M:\portfolio\assets\images\github.png" alt="Girl in a jacket" width="100" height="100">
+  <img src="M:\portfolio\assets\images\git.png" alt="Girl in a jacket" width="100" height="100">
+  <img src="M:\portfolio\assets\images\git.png" alt="Girl in a jacket" width="100" height="100">
+  <img src="M:\portfolio\assets\images\git.png" alt="Girl in a jacket" width="100" height="100">
+  <img src="M:\portfolio\assets\images\git.png" alt="Girl in a jacket" width="100" height="100">
+  <img src="M:\portfolio\assets\images\git.png" alt="Girl in a jacket" width="100" height="100">
+  <img src="M:\portfolio\assets\images\git.png" alt="center" width="100" height="100">
+</div> -->
+
+            <!-- <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <img src="M:\Portfolio\My portfolio\assets\images" alt="c++" width="100px" height="100px">
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li> -->
+
+          <!-- </ul>
+
+        </section> --> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <a href="https://github.com/Deepak2712002/Omnifood" class="social-link">
+                  
+                
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+              </a>
+
+                <h3 class="project-title">Omnifood</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+      
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        
+        <!-- <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/place/Jaipur,+Rajasthan,+India/@26.8864311,75.5113064,10z/data=!4m6!3m5!1s0x396c4adf4c57e281:0xce1c63a0cf22e09!8m2!3d26.9124336!4d75.7872709!16zL20vMDE2NzIy?hl=en&entry=ttu"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>  -->
+     
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
